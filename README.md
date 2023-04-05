@@ -12,6 +12,11 @@ Resulting in:
 
 ![image](https://user-images.githubusercontent.com/9003059/229995283-2f41f1fb-37f8-4503-ae42-01071102ca20.png)
 
+## The Solution
+
+This script will cycle through subdirs and remove the excess copies
+![image](https://user-images.githubusercontent.com/9003059/229995514-d160d96c-98a7-4ee6-8d37-31c6c6148912.png)
+
 ## Features
 
 - Scans movie directories and identifies the best quality file based on a predefined order of preference.
