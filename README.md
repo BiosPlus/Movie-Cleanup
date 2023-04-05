@@ -2,6 +2,16 @@
 
 This Bash script helps you clean up your movie collection by automatically deleting lower quality copies of movies, keeping only the highest quality copy in each directory.
 
+## The Problem
+
+Sometimes Radarr and the mounted drive will have a disconnect. Radarr won't see there are existing films, and queue up an upload to the directory without deleting the original file 
+
+![image](https://user-images.githubusercontent.com/9003059/229995080-24a9f9e6-ed24-4b0f-983a-e7377629d326.png)
+
+Resulting in:
+
+![image](https://user-images.githubusercontent.com/9003059/229995283-2f41f1fb-37f8-4503-ae42-01071102ca20.png)
+
 ## Features
 
 - Scans movie directories and identifies the best quality file based on a predefined order of preference.
